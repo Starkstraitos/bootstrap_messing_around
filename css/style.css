@@ -53,9 +53,16 @@
   }
 }
 
-/* Extra Small Devices, Phones */
+/* Extra Small Devices, Phones -to do- */
 @media only screen and (min-width : 480px) {
+  .carousel-inner {
+    height: 28vh;
+  }
 
+  .carousel-control{
+    top: 70px;
+    bottom: 400px;
+  }
 }
 
 /* Small Devices, Tablets */
