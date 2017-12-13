@@ -1,7 +1,7 @@
 .navbar{
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #1476D8;
+  background-color: #333333;
   color: #FFF;
   padding: 1% 0;
   font-size: 1.2em;
@@ -16,7 +16,7 @@
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   color: #FFF;
-  background-color: #1476D8;
+  background-color: #333333;
 }
 
 .navbar-inverse .navbar-nav li a{
@@ -97,7 +97,7 @@
 
 .btn{
   font-size: 18px;
-  background: #1476D8;
+  background: #333333;
   color: #FFF;
   padding: 12px 22px;
   border: 2px solid #FFF;
@@ -111,7 +111,7 @@
 }
 footer {
   width: 100%;
-  background-color: #1476D8;
+  background-color: #333333;
   padding: 3%;
   color: #FFF;
 }
