@@ -7,24 +7,87 @@
   font-size: 1.2em;
   border: 0;
 }
+
 .navbar-brand {
   float: left;
   min-height: 55px;
   padding: 0 15px 5px;
-
 }
+
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   color: #FFF;
-background-color: #1476D8;
+  background-color: #1476D8;
 }
+
 .navbar-inverse .navbar-nav li a{
   color: #D5D5D5;
 }
+
+/* Carousel */
+
+.carousel-control{
+  top: 84px;
+}
+
 .carousel-caption{
   top: 50%;
   transform: translateY(-50%);
   text-transform: uppercase;
 }
+
+.carousel-inner {
+  height: 90vh;
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  .carousel-inner {
+    height: 28vh;
+  }
+
+  .carousel-control{
+    top: 70px;
+    bottom: 400px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .carousel-inner {
+    height: 40vh;
+  }
+
+  .carousel-control{
+    top: 70px;
+    bottom: 589px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .carousel-inner {
+    height: 90vh;
+  }
+
+  .carousel-control{
+    top: 84px;
+    bottom: 0px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
 .btn{
   font-size: 18px;
   background: #1476D8;
