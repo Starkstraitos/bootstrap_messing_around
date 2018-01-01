@@ -1,3 +1,9 @@
+/*
+body {
+    background-image: url("img/snow.png");
+}
+*/
+
 .navbar{
   margin-bottom: 0;
   border-radius: 0;
@@ -75,7 +81,7 @@ footer {
   color: #333333;
 }
 .fa:hover {
-color: #D5D5D5;
+color: #5A5858;
 text-decoration: none;
 }
 @media (max-width: 900px){
