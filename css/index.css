@@ -1,4 +1,8 @@
 
+body {
+    background-color: #cccccc;
+    font
+}
 
 /*Page navigation */
 
@@ -10,13 +14,25 @@ ul {
 }
  li {
    display:inline;
+   padding-right: 30px;
  }
 
+a {
+  color: #333333;
+}
+a:hover{
+  text-decoration:none;
+  color: #333333;
+}
 /* Main picture */
 img {
-  margin:
+
+
 }
 
+.jumbotron{
+  background-color:#cccccc;
+}
 
 
 
