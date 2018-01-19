@@ -25,6 +25,13 @@ a:hover{
   color: #333333;
 }
 
+.home-menu{
+  margin-top: 42px;
+  margin-bottom: 15px;
+
+}
+
+
 footer ul {
   font-size: 14px;
 
@@ -33,6 +40,11 @@ footer ul {
 footer ul a{
   color: white;
 
+}
+
+footer ul a:hover{
+  color: #ffffdd;
+  text-decoration: underline;
 }
 /* Main picture */
 
