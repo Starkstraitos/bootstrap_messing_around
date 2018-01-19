@@ -24,6 +24,16 @@ a:hover{
   text-decoration:none;
   color: #333333;
 }
+
+footer ul {
+  font-size: 14px;
+
+}
+
+footer ul a{
+  color: white;
+
+}
 /* Main picture */
 
 
