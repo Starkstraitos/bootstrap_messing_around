@@ -34,7 +34,14 @@ img {
   background-color:#cccccc;
 }
 
+.padding-remove{
+  padding-right: 0;
+}
 
+.profile-image{
+  width: 300px;
+  max-width: 300px;
+}
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
