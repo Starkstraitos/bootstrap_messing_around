@@ -102,13 +102,7 @@
   padding: 12px 22px;
   border: 2px solid #FFF;
 }
-.container {
-  margin: 3% auto;
-}
-#icon{
-  max-width: 200px;
-  margin: 1% auto;
-}
+
 footer {
   width: 100%;
   background-color: #333333;
@@ -118,7 +112,6 @@ footer {
 .fa{
   padding: 20px;
   font-size:30px;
-  color: #FFF;
 }
 .fa:hover {
 color: #D5D5D5;

@@ -82,8 +82,15 @@ img {
 .fa{
   padding: 20px;
   font-size:30px;
-  color: #333333;
 }
+.fa-white{
+  color: #FFF;
+}
+
+.fa-grey{
+  color: #333;
+}
+
 .fa:hover {
 color: #5A5858;
 text-decoration: none;
