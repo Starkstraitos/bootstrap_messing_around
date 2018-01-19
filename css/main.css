@@ -62,17 +62,22 @@ footer ul a:hover{
   max-width: 300px;
 }
 
-
-
-
-
 .container {
   margin: 3% auto;
 }
-#icon{
-  max-width: 200px;
+
+.icon-wrap{
+  margin-top: 40px;
+}
+.icon{
+  max-width: 145px;
   margin: 1% auto;
 }
+
+.icon-php{
+  margin: calc((145px - 75px) / 2) 0;
+}
+
 
 .fa{
   padding: 20px;
@@ -101,9 +106,6 @@ text-decoration: none;
 
 @media (max-width:600px) {
 
-  #icon {
-  max-width: 150px;
-  }
   h2 {
     font-size: 1.7em;
   }
