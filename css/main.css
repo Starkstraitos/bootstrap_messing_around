@@ -18,7 +18,7 @@ ul {
  }
 
 a {
-  color: #ffffff;
+  color: #333333;
 }
 a:hover{
   text-decoration:none;
@@ -30,7 +30,6 @@ a:hover{
   margin-bottom: 15px;
 
 }
-
 
 footer ul {
   font-size: 14px;
