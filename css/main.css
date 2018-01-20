@@ -18,7 +18,7 @@ ul {
  }
 
 a {
-  color: #333333;
+  color: #ffffff;
 }
 a:hover{
   text-decoration:none;
@@ -46,6 +46,7 @@ footer ul a:hover{
   color: #ffffdd;
   text-decoration: underline;
 }
+
 /* Main picture */
 
 
