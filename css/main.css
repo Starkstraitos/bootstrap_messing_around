@@ -136,6 +136,12 @@ text-decoration: none;
 .navbar-inverse .navbar-nav li a{
   color: #D5D5D5;
 }
+/*Contact Form*/
+label{
+  width: 100%;
+  
+}
+
 
 /* Footer */
 footer {
