@@ -1,98 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112769836-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+<script>
+  window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
 
-    gtag('config', 'UA-112769836-1');
-  </script>
+  gtag('config', 'UA-112769836-1');
+</script>
 
-  <title>Ben Cole | Home</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Ben Cole">
-  <meta name="keywords" content="">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Ben Cole</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <!-- Global Container-->
-  <div class="container">
-    <!-- Global container end-->
-
-    <!-- Main Picture on the page -->
-
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3 text-center">
-        <img class="img-circle profile-image" src="img/me.jpg">
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3 text-center">
-        <h1>Ben Cole</h1>
-        <h3>Passionate | Promising | Engaging</h3>
-      </div>
-    </div>
-
-    <!-- Navigation -->
-
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3 text-center home-menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li class="padding-remove"><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-      </div>
-    </div>
-    <!--Global closing container-->
+  <div class="main-nav">
+    <ul class="nav">
+      <li class="name">Ben Cole</li>
+      <li><a href="#top">Home</a></li>
+      <li><a href="resume.html">Experience</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </div>
 
-  <!-- Footer -->
-  <footer class="container-fluid text-center">
-    <div class="row">
-      <div class="col-sm-4 col-sm-offset-4 text-center">
-        <h3>Connect with me</h3>
-        <a href="https://twitter.com/ColeWebworks" class="fa fa-twitter fa-white"></a>
-        <a href="https://www.meetup.com/members/245020042/" class="fa fa-meetup fa-white"></a>
-        <a href="https://medium.com/@bencoletr" class="fa fa-medium fa-white"></a>
-        <a href="https://github.com/bencoletr" class="fa fa-github fa-white"></a>
-        <a href="https://www.linkedin.com/in/bencoletr/" class="fa fa-linkedin fa-white"></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li class="padding-remove"><a href="http://colewebworks.com/privacy">Privacy Policy</a></li>
-        </ul>
-      </div>
-      <div class="col-sm-6">
-        <p>
-          Copyright &copy; 2018 Ben Cole
-        </p>
-      </div>
-    </div>
-  </footer>
+  <header>
+    <img src="img/profile.jpg" alt="A picture of Ben Cole" class="profile-image">
+    <h1 class="tag name">Ben Cole</h1>
+    <h2 class="pitch"> Passionate | Promising | Engaging </h2>
+  </header>
 
+  <main class="flex">
+    <div class="card">
+      <h2 class="card-title">My Background</h2>
+      <ul>
+        <li>I’m an aspiring web designer who loves everything about the web. I have been doing this for about five months, and love it to bits!</li>
+        <li>I’m excited to bring my life experience to the process of building fantastic looking websites.</li>
+        <li>I'm young, conciencious and hard- working and am a life-long learner who's always interested in expanding my skills and confidence.</li>
+        <li>To learn more, <a href="resume.html">view my resume.</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Goals</h2>
+      <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>WordPress</li>
+        <li>PHP</li>
+      </ul>
+      <p>My goals in the future, are to be able to run my own company, and create awesome web based products that people would love to use.</p>
+    </div>
+
+  </main>
+  <footer>
+      <a href="https://twitter.com/ColeWebworks" class="fa fa-twitter fa-black"></a>
+      <a href="https://medium.com/@bencoletr" class="fa fa-medium fa-black"></a>
+      <a href="https://github.com/bencoletr" class="fa fa-github fa-black"></a>
+      <a href="https://www.linkedin.com/in/bencoletr/" class="fa fa-linkedin fa-black"></a>
+
+    <p class="copyright">Copyright 2018, Ben Cole</p>
+  </footer>
 </body>
 
 </html>
